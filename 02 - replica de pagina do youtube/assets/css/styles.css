@@ -1,0 +1,144 @@
+@import url('reset.css');
+
+header {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu, 
+.searchvideo,
+.buttons {
+    display: flex;
+    vertical-align: -webkit-baseline-middle;
+    align-items: center;
+    justify-content: space-between;
+}
+.menubutton {
+    margin: 0px 20px;
+    vertical-align: -webkit-baseline-middle;
+}
+.logo { 
+    vertical-align: -webkit-baseline-middle;
+    padding-bottom: 1px;
+    width: 90px;
+}
+#search {
+    vertical-align: -webkit-baseline-middle;
+    border: solid 0.5px #CCCCCC;
+    width: 348px;
+    height: 40px;
+}
+.searchbutton {
+    border: 0.5px solid #CCCCCC;
+    background-color: #F8F8F8;
+    vertical-align: -webkit-baseline-middle;
+    padding: 7px;
+    margin:0px;
+}
+.videopng,
+.bell {
+    vertical-align: -webkit-baseline-middle;
+    padding-right: 20px;
+}
+.avatar {
+    margin-right: 20px;
+    vertical-align: -webkit-baseline-middle
+}
+
+/*sections*/
+main {
+    display: flex;
+    margin: 70px;
+    justify-content: center;
+}
+.watchingvideo {
+    flex-flow: wrap column;
+    max-width: 950px;
+}
+.watchingvideo h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.watchingvideo h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.watchingvideo p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.videoinformations {
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutchannel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutchannel a img{
+    margin-top: 4px;
+}
+.wrap {
+    margin-left: 10px;
+}
+.wrap p {
+    margin: 0px;
+}
+.wrap p:first-child {
+    font-weight: 700;
+}
+.subscribe {
+    background-color: red;
+    text-transform: uppercase;
+    color:#F8F8F8;
+    border: none;
+    height: 40px;
+    width: 159px;
+}
+.interacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interacoes a img{
+    padding: 10px;
+}
+.interacoes p {
+    font-weight: 700;
+}
+#related-videos {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 360px;
+    margin: 0 0px 15px 50px;
+}
+.minivideoinfos {
+    flex-wrap: wrap;
+}
+.minivideoinfos p {
+    margin-bottom: 7px;
+    margin-left: 13px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.minivideoinfos p:first-child {
+    font-weight: 700;
+    font-size: 14px;
+    color:black;
+}
+.minivideoinfos a {
+    text-decoration: none;
+}
