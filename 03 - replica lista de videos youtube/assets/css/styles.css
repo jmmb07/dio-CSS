@@ -57,7 +57,7 @@ main {
 .sidebar {
     background-color: #FFFFFF;
     display: inline-grid;
-    grid-template-rows: 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px;
+    grid-template-rows: repeat(10, 48px);
     justify-content: flex-start;
 }
 .sidebar a {
@@ -76,7 +76,7 @@ main {
 }
 .grid-videos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(4, 1fr);
     margin-top: 26px;
     justify-items: center;
 }
