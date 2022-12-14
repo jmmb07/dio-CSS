@@ -1,0 +1,104 @@
+@import url('reset.css');
+
+header {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu, 
+.searchvideo,
+.buttons {
+    display: flex;
+    vertical-align: -webkit-baseline-middle;
+    align-items: center;
+    justify-content: space-between;
+}
+.menubutton {
+    margin: 0px 20px;
+    vertical-align: -webkit-baseline-middle;
+}
+.logo { 
+    vertical-align: -webkit-baseline-middle;
+    padding-bottom: 1px;
+    width: 90px;
+}
+#search {
+    vertical-align: -webkit-baseline-middle;
+    border: solid 0.5px #CCCCCC;
+    width: 348px;
+    height: 40px;
+}
+.searchbutton {
+    border: 0.5px solid #CCCCCC;
+    background-color: #F8F8F8;
+    vertical-align: -webkit-baseline-middle;
+    padding: 7px;
+    margin:0px;
+}
+.videopng,
+.bell {
+    vertical-align: -webkit-baseline-middle;
+    padding-right: 20px;
+}
+.avatar {
+    margin-right: 20px;
+    vertical-align: -webkit-baseline-middle
+}
+
+/*sections*/
+main {
+    background-color: #F3F3F3;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.sidebar {
+    background-color: #FFFFFF;
+    display: inline-grid;
+    grid-template-rows: 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px;
+    justify-content: flex-start;
+}
+.sidebar a {
+    margin-left: 10px;
+    display: inline-flex;
+    padding: 26px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.sidebar a:first-child {
+    font-weight: 700;
+}
+.sidebar p {
+    margin-left: 15px;
+}
+.grid-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 26px;
+    justify-items: center;
+}
+.videos {
+    max-width: 250px;
+    height: 246px;
+}
+.minivideoinfos {
+    display: flex;
+}
+.videos p {
+    margin-left: 52px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.minivideoinfos p:first-child {
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 14px;
+    color:black;
+}
+.minivideoinfos a {
+    margin-top: 7px;
+    text-decoration: none;
+}
